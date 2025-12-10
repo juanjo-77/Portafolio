@@ -1,27 +1,46 @@
+
 body{
-     font-family: 'Orbitron', sans-serif ; 
-     background-size: 400% 400%;
-     color: rgb(0, 207, 0);
-     text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    border: 1px solid #00eaff;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(10, 10, 158, 0.336);
+    border-bottom: 2px solid #00eaff;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+}
+
+nav a {
+    color: #00eaff; /* Color azul neon */
+    margin: 0 20px; /* Espacio entre enlaces */
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: bold;
+}
+
+hr{
+    border: 0;
+    border-top:2px solid #00eaff;
+}
+
+
+article, section,form {
+    border: 2px solid #00eaff;    /* Borde azul neón */
+    border-radius: 10px;           /* Bordes redondeados */
+    padding: 20px;                 /* Espacio interno */
+    margin: 20px 0;                /* Separación entre artículos */
+    background-color: rgba(0, 0, 0, 0.294); /* Fondo semitransparente */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.26); /* Sombra para dar relieve */
+    max-width: 800px;              /* Máximo ancho de la tarjeta */
+    margin-left: auto;             /* Centrar horizontalmente */
+    margin-right: auto;
 }
 
 body a:hover{
     color: #ffffff;
     text-shadow: 0 0 10px #00eaff;
 }
-
-section{
-    background-color: rgba(117, 112, 112, 0.507);
-    border: 1px solid #ffffff;
-    border-radius: 15%;
-    max-width: 900px; /* Ancho máximo */
-    margin: 25px auto; /* Centrado */
-    
-}
-
-body {
-    background-image: url('fondo2.jpg');
-    background-size: cover;
-
-}
-
