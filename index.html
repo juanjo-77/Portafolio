@@ -1,60 +1,322 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portafolio de PEÑA</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="icon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juan Jose Peña — Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="/icon.png">
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <h1>Mi portafolio</h1>
-    <h2>Juan Jose Peña</h2>
 
-<hr>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">&lt;<span>juanjo</span>-dev /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#about">// about</a></li>
+      <li><a href="#skills">// skills</a></li>
+      <li><a href="#projects">// projects</a></li>
+      <li><a href="#experience">// experience</a></li>
+      <li><a href="#contact">// contact</a></li>
+    </ul>
+  </nav>
 
-    <section class="parrafo">
-        <p>Soy un desarrollador de software en proceso, hablo ingles no tan fluido, tengo 18 años y me gusta crear cosas nuevas que sean diferentes al resto, me considero alguien innovador y que siempre esta atento para hacer las cosas bien </p>
-    </section>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-tag">disponible para oportunidades</div>
+      <h1 class="hero-name">Juan Jose<br/><span class="accent">Peña Muñoz</span></h1>
+      <p class="hero-role">// <span>Software Developer</span> · Full Stack - Front-End & Back-End · Medellín</p>
+      <p class="hero-desc">
+        Construyo aplicaciones web que resuelven problemas reales — desde la interfaz hasta la base de datos.
+        Apasionado por el código limpio, el buen diseño y las soluciones que escalan.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">→ ver proyectos</a>
+        <a href="#contact" class="btn-outline">✉ contactar</a>
+      </div>
+    </div>
+  </section>
 
-<div class="links">
-    <section>
-        <a href="https://github.com/juanjo-77" target="_blank">Mi perfil</a>
-    </section>
-    
-    <section>
-        <a href="https://github.com/juanjo-77/histria_de_usuario_2">HU1 y HU2 y HU3</a>
-    </section>
-    
-    <section>
-        <a href="https://github.com/juanjo-77/actividad_bucle">bucles</a>
-    </section>
-    
-    <section>
-        <a href="https://github.com/juanjo-77/rep_prueba">todas las actividades</a>
-    </section>
-    
-    <section>
-        <a href="https://github.com/juanjo-77/HTML-Y-CSS.git">HU1 modulo 2</a>
-    </section>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">// 01. sobre mí</div>
+    <h2 class="section-title">¿Quién soy <span>yo</span>?</h2>
+    <div class="about-grid">
+      <div class="about-text fade-in">
+        <p>
+          Soy un desarrollador de software de <strong>18 años</strong> vivo en Medellín, Colombia.
+          Actualmente curso <strong>Ingeniería en Sistemas en el ITM</strong> (semestre 4) y completé
+          un año de entrenamiento intensivo en <strong>Riwi</strong>, uno de los centros de formación
+          tecnológica más reconocidos de Colombia.
+        </p>
+        <p>
+          Me muevo con comodidad tanto en el <strong>front-end</strong> como en el <strong>back-end</strong>.
+          Diseño interfaces que se sienten bien, construyo APIs que funcionan bien y estructuro bases de datos
+          que aguantan el peso real.
+        </p>
+        <p>
+          Trabajo como <strong>freelance</strong> desarrollando soluciones a medida, y estoy buscando
+          mi primer rol en una empresa de tecnología seria en Medellín donde pueda crecer y aportar
+          desde el día uno.
+        </p>
+      </div>
+      <div class="about-stats fade-in">
+        <div class="stat-card">
+          <span class="stat-num">4°</span>
+          <span class="stat-label">Semestre — ITM Ingeniería Sistemas</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">1+</span>
+          <span class="stat-label">Año formación en Riwi</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Proyectos construidos</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Tecnologías dominadas</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section>
-        <a href="https://github.com/juanjo-77/HTML-Y-CSS.git">HU2 Modulo 2</a>
-        <a href="https://juanjo-77.github.io/HTML-Y-CSS/">Sitio web</a>
-    </section>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">// 02. tecnologías</div>
+    <h2 class="section-title">Con qué <span>trabajo</span></h2>
+    <div class="skills-grid">
+      <div class="skill-group fade-in">
+        <div class="skill-group-title">front-end</div>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Tailwind CSS</span>
+          <span class="skill-tag">Diseño Responsivo</span>
+        </div>
+      </div>
+      <div class="skill-group fade-in">
+        <div class="skill-group-title">back-end</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">C#</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-group fade-in">
+        <div class="skill-group-title">bases de datos</div>
+        <div class="skill-tags">
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Modelado BD</span>
+          <span class="skill-tag">Migración de datos</span>
+        </div>
+      </div>
+      <div class="skill-group fade-in">
+        <div class="skill-group-title">herramientas</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">QA / Testing</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section>
-        <a href="https://juanjo-77.github.io/actividades-HTML/">actividades (Me quedo muy bien, veanlo)</a>
-    </section>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">// 03. proyectos</div>
+    <h2 class="section-title">Lo que he <span>construido</span></h2>
+    <div class="projects-grid">
 
-    <section>
-        <a href="https://juanjo-77.github.io/gestor_de_tareas/" target="_blank">gestor de tareas</a>
-    </section>
-</div>
+      <div class="project-card fade-in">
+        <div class="project-header">
+          <span class="project-icon">🧪</span>
+          <a href="https://github.com/juanjo-77" target="_blank" class="project-link">GitHub →</a>
+        </div>
+        <div class="project-title">Plataforma de Aprendizaje QA</div>
+        <div class="project-desc">
+          App web full stack para aprendizaje de calidad de software. Incluye login, evaluación adaptativa
+          de nivel, laboratorio interactivo y generación automática de reportes en PDF.
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">JavaScript</span>
+          <span class="stack-tag">Node.js</span>
+          <span class="stack-tag">PostgreSQL</span>
+          <span class="stack-tag">Tailwind</span>
+        </div>
+      </div>
 
-    
+      <div class="project-card fade-in">
+        <div class="project-header">
+          <span class="project-icon">🔌</span>
+          <a href="https://github.com/juanjo-77/prueba_DATA_BASE" target="_blank" class="project-link">GitHub →</a>
+        </div>
+        <div class="project-title">API REST — Servicio Backend</div>
+        <div class="project-desc">
+          Servicio backend con arquitectura limpia, endpoints documentados, manejo de errores,
+          validaciones y estructura modular separando rutas, controladores y modelos.
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag">Node.js</span>
+          <span class="stack-tag">PostgreSQL</span>
+          <span class="stack-tag">JavaScript</span>
+          <span class="stack-tag">REST</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="project-header">
+          <span class="project-icon">📊</span>
+          <a href="https://github.com/juanjo-77/prueba_DATA_BASE" target="_blank" class="project-link">GitHub →</a>
+        </div>
+        <div class="project-title">Migración Excel → PostgreSQL</div>
+        <div class="project-desc">
+          Herramienta para importar, transformar y cargar datos desde archivos Excel a una base de datos
+          relacional, con validación, limpieza de datos y log de errores.
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag">JavaScript</span>
+          <span class="stack-tag">PostgreSQL</span>
+          <span class="stack-tag">SQL</span>
+          <span class="stack-tag">Python</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="project-header">
+          <span class="project-icon">☕</span>
+          <a href="https://github.com/juanjo-77/JAVA_ITM" target="_blank" class="project-link">GitHub →</a>
+        </div>
+        <div class="project-title">Estructuras de Datos — Java</div>
+        <div class="project-desc">
+          Implementación de estructuras de datos fundamentales: listas enlazadas, pilas, colas y nodos,
+          aplicando principios de programación orientada a objetos.
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag">Java</span>
+          <span class="stack-tag">POO</span>
+          <span class="stack-tag">Data Structures</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">// 04. experiencia</div>
+    <h2 class="section-title">Mi <span>trayectoria</span></h2>
+    <div class="timeline">
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-date">2025 – PRESENTE</div>
+        <div class="timeline-role">Desarrollador Freelance</div>
+        <div class="timeline-org">Trabajo Independiente · Medellín (Remoto)</div>
+        <ul class="timeline-bullets">
+          <li>Desarrollo de sitios web y aplicaciones a medida para clientes reales</li>
+          <li>Interfaces responsivas con HTML, CSS, JavaScript y Tailwind CSS</li>
+          <li>Back-end con Node.js e integración con PostgreSQL</li>
+          <li>Gestión directa del cliente: requerimientos, entregas y soporte</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-date">2025 – 2026</div>
+        <div class="timeline-role">Formación en Desarrollo de Software</div>
+        <div class="timeline-org">Riwi — Centro de Entrenamiento · Medellín</div>
+        <ul class="timeline-bullets">
+          <li>Entrenamiento intensivo en programación web y buenas prácticas profesionales</li>
+          <li>Proyectos en HTML, CSS, JavaScript y Java en entorno colaborativo</li>
+          <li>Metodologías ágiles y control de versiones con Git desde el primer día</li>
+          <li>Exposición temprana a flujos de trabajo y estándares de la industria</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-date">2025 – PRESENTE</div>
+        <div class="timeline-role">Ingeniería en Sistemas — Semestre 4</div>
+        <div class="timeline-org">ITM Instituto Tecnológico Metropolitano · Medellín</div>
+        <ul class="timeline-bullets">
+          <li>Formación en algoritmos, estructuras de datos y diseño de sistemas</li>
+          <li>Conocimiento académico aplicado en proyectos reales y freelance</li>
+          <li>Desarrollo de soluciones POO y plataforma full stack QA como proyecto práctico</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">// 05. contacto</div>
+    <h2 class="section-title">Hablemos <span>.</span></h2>
+    <div class="contact-wrapper">
+      <p>
+        Estoy buscando oportunidades como desarrollador junior en empresas de tecnología en Medellín.
+        Si tienes un proyecto o una vacante que creas que encaja, escríbeme — respondo rápido.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:penamunozjuanjose64@gmail.com" class="contact-card">
+          <span class="icon">📧</span> Gmail
+        </a>
+        <a href="https://www.linkedin.com/in/juan-jose-pe%C3%B1a-mu%C3%B1oz-6873953b6/" target="_blank" class="contact-card">
+          <span class="icon">💼</span> LinkedIn
+        </a>
+        <a href="https://github.com/juanjo-77" target="_blank" class="contact-card">
+          <span class="icon">🐙</span> GitHub
+        </a>
+      </div>
+      <p class="contact-email">penamunozjuanjose64@gmail.com</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Diseñado & construido por <span>Juan Jose Peña Muñoz</span></p>
+    <p>Medellín, Colombia · <span>2025</span></p>
+  </footer>
+
+  <script>
+    // Fade in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, i * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 200) current = s.getAttribute('id');
+      });
+      navLinks.forEach(a => {
+        a.style.color = a.getAttribute('href') === `#${current}` ? 'var(--accent2)' : '';
+      });
+    });
+  </script>
+
 </body>
 </html>
